@@ -1,0 +1,214 @@
+
+                                      ARENA Simulation Results
+                                               Alireza
+
+                                  Summary for Replication 1 of 2
+
+Project: Unnamed Project                                             Run execution date : 7/12/2020
+Analyst: Rockwell Automation                                         Model revision date: 7/12/2020
+
+Replication ended at time      : 21600.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             9.8571     .27483     .00000     31.976       1971    
+Customer.NVATime                            .00000     .00000     .00000     .00000       1971    
+Customer.WaitTime                           5.3506     .22106     .00000     28.754       1971    
+Customer.TranTime                           .00000     .00000     .00000     .00000       1971    
+Customer.OtherTime                          1.0682     .04537     .00000     4.9864       1971    
+Customer.TotalTime                          16.276     .24565     2.0055     53.064       1971    
+Accessories.Queue.WaitingTime               .01672     .01248     .00000     2.5452        600    
+Bakery.Queue.WaitingTime                    .09151     .04103     .00000     3.8572        609    
+Seize Table.Queue.WaitingTime               .00000     .00000     .00000     .00000        613    
+Pay.Queue.WaitingTime                       .17889     .05239     .00000     5.6077       1358    
+Pastry.Queue.WaitingTime                    1.5756     .31554     .00000     15.658        608    
+Cakes.Queue.WaitingTime                     .04801     .03799     .00000     4.5560        600    
+Cafe.Queue.WaitingTime                      .24559     (Insuf)    .00000     8.7563        248    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                1.4851     .14899     .00000     16.000     .00000    
+Pastor.NumberBusy                           .11238     .01200     .00000     1.0000     .00000    
+Pastor.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Pastor.Utilization                          .11238     .01200     .00000     1.0000     .00000    
+Cashier.NumberBusy                          .37616     .03664     .00000     3.0000     .00000    
+Cashier.NumberScheduled                     3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Cashier.Utilization                         .12539     .01221     .00000     1.0000     .00000    
+Barista.NumberBusy                          .04620     .00784     .00000     1.0000     .00000    
+Barista.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Barista.Utilization                         .04620     .00784     .00000     1.0000     .00000    
+Cake _Men.NumberBusy                        .21085     .02306     .00000     3.0000     .00000    
+Cake _Men.NumberScheduled                   3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Cake _Men.Utilization                       .07028     .00769     .00000     1.0000     .00000    
+Outside_Tables.NumberBusy                   .52293     .05676     .00000     4.0000     .00000    
+Outside_Tables.NumberScheduled              4.0000     (Insuf)    4.0000     4.0000     4.0000    
+Outside_Tables.Utilization                  .13073     .01419     .00000     1.0000     .00000    
+Worker.NumberBusy                           .06961     .00695     .00000     2.0000     .00000    
+Worker.NumberScheduled                      2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Worker.Utilization                          .03480     .00348     .00000     1.0000     .00000    
+Baker.NumberBusy                            .08427     .00804     .00000     2.0000     .00000    
+Baker.NumberScheduled                       2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Baker.Utilization                           .04213     .00402     .00000     1.0000     .00000    
+Accessories.Queue.NumberInQueue             4.6452E-04 (Insuf)    .00000     1.0000     .00000    
+Bakery.Queue.NumberInQueue                  .00258     (Insuf)    .00000     2.0000     .00000    
+Seize Table.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+Pay.Queue.NumberInQueue                     .01125     (Insuf)    .00000     3.0000     .00000    
+Pastry.Queue.NumberInQueue                  .04435     .00922     .00000     5.0000     .00000    
+Cakes.Queue.NumberInQueue                   .00133     (Insuf)    .00000     2.0000     .00000    
+Cafe.Queue.NumberInQueue                    .00282     (Insuf)    .00000     3.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           1971.0    
+Customer.NumberOut                          1971.0    
+Pastor.NumberSeized                         608.00    
+Pastor.ScheduledUtilization                 .11238    
+Cashier.NumberSeized                        1358.0    
+Cashier.ScheduledUtilization                .12539    
+Barista.NumberSeized                        248.00    
+Barista.ScheduledUtilization                .04620    
+Cake _Men.NumberSeized                      600.00    
+Cake _Men.ScheduledUtilization              .07028    
+Outside_Tables.NumberSeized                 613.00    
+Outside_Tables.ScheduledUtilization         .13073    
+Worker.NumberSeized                         600.00    
+Worker.ScheduledUtilization                 .03480    
+Baker.NumberSeized                          609.00    
+Baker.ScheduledUtilization                  .04213    
+System.NumberOut                            1971.0    
+
+Beginning replication 2 of 2
+
+                                      ARENA Simulation Results
+                                               Alireza
+
+                                  Summary for Replication 2 of 2
+
+Project: Unnamed Project                                             Run execution date : 7/12/2020
+Analyst: Rockwell Automation                                         Model revision date: 7/12/2020
+
+Replication ended at time      : 21600.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             9.7390     .24604     .00000     32.521       2048    
+Customer.NVATime                            .00000     .00000     .00000     .00000       2048    
+Customer.WaitTime                           5.4747     .19553     .00000     29.413       2048    
+Customer.TranTime                           .00000     .00000     .00000     .00000       2048    
+Customer.OtherTime                          1.1512     .04589     .00000     4.9980       2048    
+Customer.TotalTime                          16.365     .24930     2.0045     52.395       2048    
+Accessories.Queue.WaitingTime               .02028     .01409     .00000     2.1319        623    
+Bakery.Queue.WaitingTime                    .10645     .04183     .00000     3.8871        644    
+Seize Table.Queue.WaitingTime               .00000     .00000     .00000     .00000        668    
+Pay.Queue.WaitingTime                       .10715     .03562     .00000     5.5555       1380    
+Pastry.Queue.WaitingTime                    1.3272     .25748     .00000     15.322        605    
+Cakes.Queue.WaitingTime                     .09520     .07405     .00000     7.6411        623    
+Cafe.Queue.WaitingTime                      .39468     (Insuf)    .00000     8.3497        262    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                1.5516     .16430     .00000     15.000     .00000    
+Pastor.NumberBusy                           .11247     .01128     .00000     1.0000     .00000    
+Pastor.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Pastor.Utilization                          .11247     .01128     .00000     1.0000     .00000    
+Cashier.NumberBusy                          .38221     .03965     .00000     3.0000     .00000    
+Cashier.NumberScheduled                     3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Cashier.Utilization                         .12740     .01322     .00000     1.0000     .00000    
+Barista.NumberBusy                          .04836     .00857     .00000     1.0000     .00000    
+Barista.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Barista.Utilization                         .04836     .00857     .00000     1.0000     .00000    
+Cake _Men.NumberBusy                        .21711     .02504     .00000     3.0000     .00000    
+Cake _Men.NumberScheduled                   3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Cake _Men.Utilization                       .07237     .00835     .00000     1.0000     .00000    
+Outside_Tables.NumberBusy                   .57293     (Corr)     .00000     4.0000     .00000    
+Outside_Tables.NumberScheduled              4.0000     (Insuf)    4.0000     4.0000     4.0000    
+Outside_Tables.Utilization                  .14323     (Corr)     .00000     1.0000     .00000    
+Worker.NumberBusy                           .07336     .00944     .00000     2.0000     .00000    
+Worker.NumberScheduled                      2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Worker.Utilization                          .03668     .00472     .00000     1.0000     .00000    
+Baker.NumberBusy                            .08989     .00967     .00000     2.0000     .00000    
+Baker.NumberScheduled                       2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Baker.Utilization                           .04494     .00483     .00000     1.0000     .00000    
+Accessories.Queue.NumberInQueue             5.8488E-04 (Insuf)    .00000     1.0000     .00000    
+Bakery.Queue.NumberInQueue                  .00317     (Insuf)    .00000     3.0000     .00000    
+Seize Table.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+Pay.Queue.NumberInQueue                     .00685     (Insuf)    .00000     3.0000     .00000    
+Pastry.Queue.NumberInQueue                  .03718     .00986     .00000     4.0000     .00000    
+Cakes.Queue.NumberInQueue                   .00275     (Insuf)    .00000     2.0000     .00000    
+Cafe.Queue.NumberInQueue                    .00479     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           2048.0    
+Customer.NumberOut                          2048.0    
+Pastor.NumberSeized                         605.00    
+Pastor.ScheduledUtilization                 .11247    
+Cashier.NumberSeized                        1380.0    
+Cashier.ScheduledUtilization                .12740    
+Barista.NumberSeized                        262.00    
+Barista.ScheduledUtilization                .04836    
+Cake _Men.NumberSeized                      623.00    
+Cake _Men.ScheduledUtilization              .07237    
+Outside_Tables.NumberSeized                 668.00    
+Outside_Tables.ScheduledUtilization         .14323    
+Worker.NumberSeized                         623.00    
+Worker.ScheduledUtilization                 .03668    
+Baker.NumberSeized                          644.00    
+Baker.ScheduledUtilization                  .04494    
+System.NumberOut                            2048.0    
+
+
+                                      ARENA Simulation Results
+                                               Alireza
+
+                                  Output Summary for 2 Replications
+
+Project: Unnamed Project                                             Run execution date : 7/12/2020
+Analyst: Rockwell Automation                                         Model revision date: 7/12/2020
+
+
+                                             OUTPUTS
+
+Identifier                                 Average    Half-width Minimum    Maximum # Replications
+___________________________________________________________________________________________________
+
+Customer.NumberIn                           2009.5     489.18     1971.0     2048.0     2
+Customer.NumberOut                          2009.5     489.18     1971.0     2048.0     2
+Pastor.NumberSeized                         606.50     19.059     605.00     608.00     2
+Pastor.ScheduledUtilization                 .11243     5.8583E-04 .11238     .11247     2
+Cashier.NumberSeized                        1369.0     139.76     1358.0     1380.0     2
+Cashier.ScheduledUtilization                .12639     .01280     .12539     .12740     2
+Barista.NumberSeized                        255.00     88.942     248.00     262.00     2
+Barista.ScheduledUtilization                .04728     .01373     .04620     .04836     2
+Cake _Men.NumberSeized                      611.50     146.11     600.00     623.00     2
+Cake _Men.ScheduledUtilization              .07133     .01326     .07028     .07237     2
+Outside_Tables.NumberSeized                 640.50     349.41     613.00     668.00     2
+Outside_Tables.ScheduledUtilization         .13698     .07941     .13073     .14323     2
+Worker.NumberSeized                         611.50     146.11     600.00     623.00     2
+Worker.ScheduledUtilization                 .03574     .01192     .03480     .03668     2
+Baker.NumberSeized                          626.50     222.35     609.00     644.00     2
+Baker.ScheduledUtilization                  .04354     .01786     .04213     .04494     2
+System.NumberOut                            2009.5     489.18     1971.0     2048.0     2
+
+Simulation run time: 0.12 minutes.
+Simulation run complete.

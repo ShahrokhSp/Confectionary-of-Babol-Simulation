@@ -1,0 +1,35 @@
+[RESOURCES]
+Pastor
+Cashier
+Barista
+Cake _Men
+Outside_Tables
+Worker
+Baker
+[VARIABLES]
+Bakery.NumberOut
+Cafe.NumberOut
+Customer Arrival.NumberOut
+Siezing Tables.NumberOut
+Cakes.NumberOut
+Pastry.NumberIn
+Accessories.NumberOut
+Accessories.NumberIn
+Leave.NumberOut
+Dispose.NumberOut
+Cafe.NumberIn
+Done Shopping?.NumberOut True
+Free?.NumberOut False
+Pay.NumberIn
+Pay.NumberOut
+Free?.NumberOut True
+Separate.NumberOut Orig
+Separate.NumberOut Dup
+Done Shopping?.NumberOut False
+Bakery.NumberIn
+Cakes.NumberIn
+Pastry.NumberOut
+Leaving Straight.NumberOut
+Table?.NumberOut True
+Table?.NumberOut False
+Siezing Tables.NumberIn
